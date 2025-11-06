@@ -9,12 +9,11 @@ public class SumaEnteros {
 			System.out.println("La suma total es: " + resultado);
 		 
 	}
-		catch (Exception e) {
-			
+		catch (Exception e) {}
 		}
 		public static int calcularSuma(int[] valores) throws Exception {
 			int suma =0;
-			for (int i=0; i <= valores.lenght; i++) {
+			for (int i=0; i <= valores.length; i++) {
 				suma += valores[i];
 			}
 		
